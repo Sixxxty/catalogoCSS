@@ -1,0 +1,137 @@
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #B1B1B1;
+}
+.menu-h {
+    background-color: #090B0A;
+}
+.menu-h ul {
+    max-width: 85em;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+.menu-h ul li {
+    display: inline;
+    
+
+}
+.menu-h ul li a{
+    display: inline-block;
+    color: #F5F5F5;
+    text-decoration: none;
+    padding: 20px;
+    transition: color .6s;
+    transition: background .6s;
+
+}
+.menu-h ul li a:hover {
+    background-color: #F5F5F5;
+    color:#090B0A ;
+}
+
+
+.catalogo-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.catalogo-item img {
+    height: 100px;
+    width: 100px;
+}
+
+.catalogo-item {
+    background-color:#FFFFFF ;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5px;
+    border: solid 2px #B1B1B1;
+    border-radius: 20px;
+}
+
+.catalogo-item span {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #090B0A;
+    outline: 0;
+  }
+  
+.catalogo-item button {
+    margin-bottom: 15px;
+}
+
+
+.catalogo-item button{
+    cursor: pointer;
+    border-color: #090B0A;
+    color: #B1B1B1;
+    background-image: -webkit-linear-gradient(45deg, #B1B1B1 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #B1B1B1 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+
+.catalogo-item button:hover {
+    cursor: pointer;
+    background-position: 0;
+}
+.menu-h ul li:last-child {
+    float: right;
+}
+label {
+    color: #FFFFFF;
+}
+
+.pesquisa {
+    margin-top: 20px;
+}
+
+
+
+
+
